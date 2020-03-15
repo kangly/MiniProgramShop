@@ -1,0 +1,48 @@
+/**app.wxss**/
+@import "components/colorui/main.wxss";
+@import "components/colorui/icon.wxss";
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 10rpx 20rpx;
+  background-color: #fff;
+}
+.box{
+    position: absolute;
+    padding-bottom: 150rpx;
+    width: 100%;
+}
+.canui-head-title{
+    font-size: 34rpx;
+}
+.canui-xzwz{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:1;
+}
+.canui-foor-fixed{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index:99999;
+}
+.canui-tabbar-bottom{
+    padding-bottom:20rpx;
+    min-height:150rpx;
+}
+.canui-tabbar-fixed-bottom{
+    bottom: 70rpx;
+}
+.canui-color-gradual{
+    background-image:linear-gradient(45deg, #ff9700, #ed1c24);
+    color: #fff;
+}
+.canui-text-right{
+    float: right;
+    text-align: right;
+}
