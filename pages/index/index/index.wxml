@@ -1,0 +1,67 @@
+<!--pages/index/index/index.wxml-->
+<view class="container">
+
+  <!--搜索区-->
+  <view class="cu-bar search bg-white" style="top:{{CustomBar}}px;">
+    <view>
+      <text class="cuIcon-location lg text-gray">生活超市</text>
+    </view>
+    <view class="search-form round">
+      <text class="cuIcon-search"></text>
+      <input type="text" placeholder="请输入搜索内容" confirm-type="search" bindtap="postSearchPage"></input>
+    </view>
+  </view>
+
+  <!--轮播区域-->
+  <swiper class="screen-swiper square-dot" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" indicator-color="#000000" indicator-active-color="#0081ff">
+    <swiper-item wx:for="{{swiperList}}" wx:key="item" data-id="{{item.id}}" bindtap="postGoodsDetail">
+      <image src="{{item.thumb}}" mode="aspectFill" wx:if="{{item.id}}"></image>
+    </swiper-item>
+  </swiper>
+
+  <!--宫格功能区域-->
+  <view class="cu-list grid col-3 no-border">
+    <view class="cu-item">
+      <view class="cuIcon-safe text-red"></view>
+      <text>正品保障</text>
+    </view>
+    <view class="cu-item">
+      <view class="cuIcon-deliver text-red"></view>
+      <text>一件包邮</text>
+    </view>
+    <view class="cu-item">
+      <view class="cuIcon-dianhua text-red"></view>
+      <text>售后无忧</text>
+    </view>
+  </view>
+
+  <!-- 商品列表 -->
+  <view class="container">
+    <view class="cards-area">
+      <view wx:for="{{articles}}">
+        <view wx:if="{{item.id}}">
+          <view class="card">
+            <view class="content-area">
+              <view class="left-area">
+                <image src='{{item.thumb}}' class="thumbnail" mode="aspectFill"/>
+              </view>
+              <view class="right-area">
+                <text class="title">{{item.title}}</text>
+                <text class="card-content text-gray">{{item.summary}}</text>
+                <view class="info-area">
+                  <text class="posted-date">香甜可口</text>
+                  <text class="views">物美价廉</text>
+                </view>
+                <view class="info-area">
+                  <text class="posted-date">￥29.0</text>
+                  <view class="cuIcon-add text-red" style="float:right;font-size:14px"></view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

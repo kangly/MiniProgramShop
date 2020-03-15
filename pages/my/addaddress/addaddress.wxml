@@ -1,0 +1,27 @@
+<!--pages/my/addaddress/addaddress.wxml-->
+<view class="box">
+  <view class="cu-form-group">
+      <view class='title'>姓名</view>
+      <input placeholder="请填写收货人的姓名" class='radius' name='input'></input>
+  </view>
+  <view class="cu-form-group">
+      <view class='title'>电话</view>
+      <input placeholder="请填写收货人的电话号码" class='radius' name='input'></input>
+  </view>
+  <view class="cu-form-group">
+      <view class='title'>地址</view>
+      <input placeholder="请填写收货人的详细地址" class='radius' name='input'></input>
+  </view>
+  <view class="cu-form-group">
+      <view class='title'>设置默认地址</view>
+      <switch class='red sm' checked></switch>
+  </view>
+  <view class="cu-form-group margin-top">
+      <view class='title text-red light'>删除当前收货地址</view>
+  </view>
+</view>
+
+<view class="canui-foor-fixed canui-tabbar-bottom">
+  <button class="cu-btn canui-color-gradual shadow-blur round lg" bindtap='add'><text class="icon-add"></text> 新增收货地址</button>
+</view>
+

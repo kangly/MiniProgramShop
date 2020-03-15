@@ -1,0 +1,69 @@
+/* pages/index/index/index.wxss */
+.card {
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+  margin-bottom: 30rpx;
+  overflow: hidden;
+  color: #333;
+}
+.card .title {
+  font-size: 16px;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.card .content-area {
+  display: -webkit-box;
+}
+.card .content-area .right-area {
+  -webkit-box-orient: vertical;
+  -webkit-box-flex: 1;
+}
+.card .content-area .right-area .card-content {
+  line-height: 1.3;
+  font-size: 14px;
+  margin: 10rpx 0 30rpx 0;
+  font-family: HelveticaNeue-Light;
+  overflow: hidden;
+  color: #666;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.card .content-area .right-area .info-area {
+  font-size: 10px;
+  color: #666;
+  opacity: 0.8;
+  margin-top: 10rpx;
+  font-family: 'iconfont';
+}
+.card .content-area .right-area .info-area .posted-date:before {
+  margin-right: 10rpx;
+}
+.card .content-area .right-area .info-area .views {
+  margin-left: 30rpx;
+}
+.card .content-area .right-area .info-area .views:before {
+  margin-right: 10rpx;
+}
+.card .content-area .left-area {
+  margin-right: 20rpx;
+}
+.card .content-area .thumbnail {
+  width: 240rpx;
+  height: 240rpx;
+  background-color: #eee;
+}
+.cards-area {
+  width: 100%; 
+}
+.cards-area .date {
+    color: #666;
+    text-align: center;
+    margin-bottom: 10rpx;
+    opacity: .8; 
+}

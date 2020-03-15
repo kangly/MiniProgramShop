@@ -1,0 +1,61 @@
+<!--pages/my/index/index.wxml-->
+<scroll-view scroll-y class="scrollPage">
+  <view class="UCenter-bg">
+    <!-- <image src="/images/logo.png" class="png" mode="widthFix"></image> -->
+    <view class="text-xl">小康商城
+      <text class="text-df">v1.0</text>
+    </view>
+    <view class="margin-top-sm">
+      <text>By:kangly</text>
+    </view>
+  </view>
+
+  <!--宫格功能区域-->
+  <view class="cu-list card-menu grid col-3 border margin-top radius">
+    <view class="cu-item">
+      <text>￥2.35</text>
+      <text>余额</text>
+    </view>
+    <view class="cu-item">
+      <text>0</text>
+      <text>积分</text>
+    </view>
+    <view class="cu-item">
+      <text>0</text>
+      <text>优惠券</text>
+    </view>
+  </view>
+
+  <view class="cu-list menu card-menu margin-top margin-bottom shadow-lg radius">
+    <view class="cu-item arrow">
+      <navigator class='content' open-type="navigate" hover-class='none' url="/pages/my/order/order">
+          <text class='cuIcon-send text-cyan'></text>
+          <text class='text-grey'>我的订单</text>
+      </navigator>
+    </view>
+    <view class="cu-item arrow">
+      <navigator class='content' open-type="navigate" hover-class='none' url="/pages/my/card/card">
+          <text class='cuIcon-vipcard text-green'></text>
+          <text class='text-grey'>会员卡</text>
+      </navigator>
+    </view>
+    <view class="cu-item arrow">
+      <navigator class='content' open-type="navigate" hover-class='none' url="/pages/my/coupon/coupon">
+          <text class='cuIcon-ticket text-red'></text>
+          <text class='text-grey'>优惠券</text>
+      </navigator>
+    </view>
+    <view class="cu-item arrow">
+      <navigator class='content' open-type="navigate" hover-class='none' url="/pages/my/address/address">
+          <text class='cuIcon-location text-orange'></text>
+          <text class='text-grey'>地址管理</text>
+      </navigator>
+    </view>
+    <view class="cu-item arrow">
+      <button class='cu-btn content' open-type='feedback'>
+          <text class='cuIcon-writefill text-grey'></text>
+          <text class='text-grey'>意见反馈</text>
+      </button>
+    </view>
+  </view>
+</scroll-view>

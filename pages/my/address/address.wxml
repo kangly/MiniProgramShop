@@ -1,0 +1,30 @@
+<!--pages/my/address/address.wxml-->
+<view class="box">
+  <view class="cu-list menu bg-white">
+    <view class="cu-item">
+      <view class='content'>
+          <view class="text-df">收货人 <text>138****8000</text> <view class='cu-tag bg-red round'>默认</view></view>
+          <view class='text-gray text-sm canui-xzwz'>重庆市某某某</view>
+      </view>
+      <view class='action'><view class='text-grey icon-write'></view></view>
+    </view>
+    <view class="cu-item">
+      <view class='content'>
+          <view class="text-df">收货人 <text>138****8000</text></view>
+          <view class='text-gray text-sm canui-xzwz'>重庆市某某某</view>
+      </view>
+      <view class='action'><view class='text-grey icon-write'></view></view>
+    </view>
+    <view class="cu-item">
+      <view class='content'>
+          <view class="text-df">收货人 <text>138****8000</text></view>
+          <view class='text-gray text-sm canui-xzwz'>重庆市某某某某某某某</view>
+      </view>
+      <view class='action'><view class='text-grey icon-write'></view></view>
+    </view>
+  </view>
+</view>
+
+<view class="canui-foor-fixed canui-tabbar-bottom">
+  <button class="cu-btn canui-color-gradual shadow-blur round lg" bindtap='add'><text class="icon-add"></text> 新增收货地址</button>
+</view>
