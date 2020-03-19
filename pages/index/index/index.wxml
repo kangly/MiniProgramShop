@@ -35,31 +35,86 @@
     </view>
   </view>
 
-  <!-- 商品列表 -->
-  <view class="container">
-    <view class="cards-area">
-      <view wx:for="{{articles}}">
-        <view wx:if="{{item.id}}">
-          <view class="card">
-            <view class="content-area">
-              <view class="left-area">
-                <image src='{{item.thumb}}' class="thumbnail" mode="aspectFill"/>
-              </view>
-              <view class="right-area">
-                <text class="title">{{item.title}}</text>
-                <text class="card-content text-gray">{{item.summary}}</text>
-                <view class="info-area">
-                  <text class="posted-date">香甜可口</text>
-                  <text class="views">物美价廉</text>
-                </view>
-                <view class="info-area">
-                  <text class="posted-date">￥29.0</text>
-                  <view class="cuIcon-add text-red" style="float:right;font-size:14px"></view>
-                </view>
-              </view>
-            </view>
-          </view>
-        </view>
+  <!-- 精选好物 -->
+  <view class="cu-bar bg-white">
+    <view class="action">
+      <text class="cuIcon-title text-green"></text>
+      <text>精选好物</text>
+    </view>
+    <navigator hover-class="none" url="pages/detail/detail/detail">
+      <view class="action"> 更多 <view class="cuIcon-right"></view> </view>
+    </navigator>
+  </view>
+  <view class="card" wx:for="{{articles}}" wx:if="{{item.id}}">
+    <view class="left">
+      <image src='{{item.thumb}}' class="thumbnail" mode="aspectFill"/>
+    </view>
+    <view class="right">
+      <text class="title">{{item.title}}</text>
+      <text class="intro text-gray">{{item.summary}}</text>
+      <view class="info">
+        <text>香甜可口</text>
+        <text class="views">物美价廉</text>
+      </view>
+      <view class="info">
+        <text class="text-red text-lg">￥29.0</text>
+        <view class="cuIcon-add text-red"></view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 上新专区 -->
+  <view class="cu-bar bg-white">
+    <view class="action">
+      <text class="cuIcon-title text-green"></text>
+      <text>上新专区</text>
+    </view>
+    <navigator hover-class="none" url="pages/detail/detail/detail">
+      <view class="action"> 更多 <view class="cuIcon-right"></view> </view>
+    </navigator>
+  </view>
+  <view class="card" wx:for="{{articles}}" wx:if="{{item.id}}">
+    <view class="left">
+      <image src='{{item.thumb}}' class="thumbnail" mode="aspectFill"/>
+    </view>
+    <view class="right">
+      <text class="title">{{item.title}}</text>
+      <text class="intro text-gray">{{item.summary}}</text>
+      <view class="info">
+        <text>香甜可口</text>
+        <text class="views">物美价廉</text>
+      </view>
+      <view class="info">
+        <text class="text-red text-lg">￥29.0</text>
+        <view class="cuIcon-add text-red"></view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 每日特价 -->
+  <view class="cu-bar bg-white">
+    <view class="action">
+      <text class="cuIcon-title text-green"></text>
+      <text>每日特价</text>
+    </view>
+    <navigator hover-class="none" url="pages/detail/detail/detail">
+      <view class="action"> 更多 <view class="cuIcon-right"></view> </view>
+    </navigator>
+  </view>
+  <view class="card" wx:for="{{articles}}" wx:if="{{item.id}}">
+    <view class="left">
+      <image src='{{item.thumb}}' class="thumbnail" mode="aspectFill"/>
+    </view>
+    <view class="right">
+      <text class="title">{{item.title}}</text>
+      <text class="intro text-gray">{{item.summary}}</text>
+      <view class="info">
+        <text>香甜可口</text>
+        <text class="views">物美价廉</text>
+      </view>
+      <view class="info">
+        <text class="text-red text-lg">￥29.0</text>
+        <view class="cuIcon-add text-red"></view>
       </view>
     </view>
   </view>

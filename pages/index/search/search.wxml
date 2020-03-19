@@ -1,2 +1,10 @@
 <!--pages/index/search/search.wxml-->
-<text>pages/index/search/search.wxml</text>
+<view class="cu-bar search bg-white" style="top:{{CustomBar}}px;">
+  <view class="search-form round">
+    <text class="cuIcon-search"></text>
+    <input type="text" placeholder="请输入搜索内容" confirm-type="search" bindtap=""></input>
+  </view>
+  <view class="action">
+    <button class="cu-btn bg-gradual-green shadow-blur round" bindtap="search">搜索</button>
+  </view>
+</view>

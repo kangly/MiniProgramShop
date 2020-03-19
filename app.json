@@ -10,7 +10,8 @@
     "pages/my/card/card",
     "pages/my/coupon/coupon",
     "pages/my/address/address",
-    "pages/my/addaddress/addaddress"
+    "pages/my/addaddress/addaddress",
+    "pages/detail/detail/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

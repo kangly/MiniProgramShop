@@ -1,12 +1,11 @@
-// pages/cart/cart.js
+// pages/detail/detail/detail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    StatusBar: '',
-    CustomBar: '',
+
   },
 
   /**
@@ -63,11 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  submit: function () {
-    // wx.navigateTo({
-    //   url: ''
-    // })
   }
 })

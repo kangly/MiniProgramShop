@@ -5,6 +5,8 @@
   margin-bottom: 30rpx;
   overflow: hidden;
   color: #333;
+  width: 100%; 
+  display: -webkit-box;
 }
 .card .title {
   font-size: 16px;
@@ -15,14 +17,19 @@
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
-.card .content-area {
-  display: -webkit-box;
+.card .left {
+  margin-right: 20rpx;
 }
-.card .content-area .right-area {
+.card .left .thumbnail {
+  width: 240rpx;
+  height: 240rpx;
+  background-color: #eee;
+}
+.card .right {
   -webkit-box-orient: vertical;
   -webkit-box-flex: 1;
 }
-.card .content-area .right-area .card-content {
+.card .right .intro {
   line-height: 1.3;
   font-size: 14px;
   margin: 10rpx 0 30rpx 0;
@@ -34,36 +41,18 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
-.card .content-area .right-area .info-area {
+.card .right .info {
   font-size: 10px;
   color: #666;
   opacity: 0.8;
   margin-top: 10rpx;
   font-family: 'iconfont';
 }
-.card .content-area .right-area .info-area .posted-date:before {
-  margin-right: 10rpx;
-}
-.card .content-area .right-area .info-area .views {
+.card .right .info .views {
   margin-left: 30rpx;
 }
-.card .content-area .right-area .info-area .views:before {
-  margin-right: 10rpx;
-}
-.card .content-area .left-area {
-  margin-right: 20rpx;
-}
-.card .content-area .thumbnail {
-  width: 240rpx;
-  height: 240rpx;
-  background-color: #eee;
-}
-.cards-area {
-  width: 100%; 
-}
-.cards-area .date {
-    color: #666;
-    text-align: center;
-    margin-bottom: 10rpx;
-    opacity: .8; 
+.card .right .info .cuIcon-add {
+  float:right;
+  font-size:24px;
+  font-weight:bold;
 }

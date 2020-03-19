@@ -7,22 +7,22 @@ Page({
     swiperList: [
       {
         'id': 1,
-        "thumb": 'https://ossweb-img.qq.com/images/lol/web201310/skin/big84000.jpg'
+        "thumb": 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1584183970705&di=7b442684fad744e8414318203f02f36c&imgtype=0&src=http%3A%2F%2Fp4.pccoo.cn%2Fes_product%2F20160512%2F2016051217011351685660.jpg'
       },
       {
         'id': 2,
-        "thumb": 'https://ossweb-img.qq.com/images/lol/web201310/skin/big84001.jpg'
+        "thumb": 'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2540143084,3109177389&fm=15&gp=0.jpg'
       },
       {
         'id': 3,
-        "thumb": 'https://ossweb-img.qq.com/images/lol/web201310/skin/big39000.jpg'
+        "thumb": 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1584184024818&di=dd5e5b19da1a163c3f3b2ccc61c6e201&imgtype=0&src=http%3A%2F%2Fp1.meituan.net%2Fdeal%2Faf287b63a717c609cc3a7221a3b2a41697515.jpg'
       }
     ],
     articles: [
       {
         'id': 1,
         'title': '原产地新鲜，香甜可口，大个红富士',
-        'summary': '香甜可口红富士',
+        'summary': '新鲜采摘',
         'thumb': 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1584183970705&di=7b442684fad744e8414318203f02f36c&imgtype=0&src=http%3A%2F%2Fp4.pccoo.cn%2Fes_product%2F20160512%2F2016051217011351685660.jpg'
       },
       {
@@ -36,6 +36,18 @@ Page({
         'title': '河间驴肉火烧',
         'summary': '火烧',
         'thumb': 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1584184024818&di=dd5e5b19da1a163c3f3b2ccc61c6e201&imgtype=0&src=http%3A%2F%2Fp1.meituan.net%2Fdeal%2Faf287b63a717c609cc3a7221a3b2a41697515.jpg'
+      },
+      {
+        'id': 4,
+        'title': '河间驴肉火烧',
+        'summary': '火烧',
+        'thumb': 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1584184024818&di=dd5e5b19da1a163c3f3b2ccc61c6e201&imgtype=0&src=http%3A%2F%2Fp1.meituan.net%2Fdeal%2Faf287b63a717c609cc3a7221a3b2a41697515.jpg'
+      },
+      {
+        'id': 5,
+        'title': '原产地新鲜，香甜可口，大个红富士',
+        'summary': '新鲜采摘',
+        'thumb': 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1584183970705&di=7b442684fad744e8414318203f02f36c&imgtype=0&src=http%3A%2F%2Fp4.pccoo.cn%2Fes_product%2F20160512%2F2016051217011351685660.jpg'
       }
     ],
   },
